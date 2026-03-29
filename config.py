@@ -28,9 +28,11 @@ FFMPEG_OPTIONS = {
 }
 
 # yt-dlp Options
+# yt-dlp Options
 YDL_OPTIONS = {
     'format': 'bestaudio/best',
-    'extractor_args': {'youtube': ['player_client=android']},
+    'cookiefile': 'cookies.txt',
+    'extractor_args': {'youtube': ['player_client=android,web']},
     'extractaudio': True,
     'audioformat': 'mp3',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
@@ -44,3 +46,5 @@ YDL_OPTIONS = {
     'default_search': 'auto',
     'source_address': '0.0.0.0',
 }
+    
+
