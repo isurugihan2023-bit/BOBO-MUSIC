@@ -30,6 +30,7 @@ FFMPEG_OPTIONS = {
 # yt-dlp Options
 YDL_OPTIONS = {
     'format': 'bestaudio/best',
+    'cookiefile': 'cookies.txt',
     'extractaudio': True,
     'audioformat': 'mp3',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
