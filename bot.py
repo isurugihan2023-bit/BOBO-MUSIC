@@ -25,7 +25,7 @@ class BoboBot(commands.Bot):
         # Note: In production, global sync can take up to an hour. 
         # For testing, you can sync to a specific guild.
         print(f"Syncing slash commands...")
-        await self.tree.sync()
+        # await self.tree.sync()
         print(f"Slash commands synced.")
 
     async def on_ready(self):
