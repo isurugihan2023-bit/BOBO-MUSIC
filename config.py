@@ -28,9 +28,6 @@ FFMPEG_OPTIONS = {
 }
 
 # yt-dlp Options
-# yt-dlp Options
-YDL_OPTIONS = {
-    # yt-dlp Options
 YDL_OPTIONS = {
     'format': 'ba/best',
     'cookiefile': 'cookies.txt',
@@ -48,5 +45,3 @@ YDL_OPTIONS = {
     'default_search': 'auto',
     'source_address': '0.0.0.0',
 }
-    
-
